@@ -2,12 +2,12 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0;
     margin: 0;
-    background-image: url("Home\ Screen.png");
-    background-size: cover;
 }
 
 #home {
-    color: white
+    color: white;
+    background-image: url("Home\ Screen.png");
+    background-size: cover;
 }
 
 .home-btn {
@@ -15,4 +15,46 @@ body {
     border-radius: 10px;
     font-weight: bold;
     font-size: small;
+}
+
+#about {
+    padding: 50px 150px;
+}
+
+#about h3 {
+    font-size: medium;
+    font-weight: 500;
+    text-align: center;
+}
+
+#about img {
+    padding: 10px;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 45px;
+}
+
+.stay {
+    color: orange
+}
+
+.about-layout1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.about-div-para {
+    margin: 30px 0px
+}
+
+.about-layout1-text {
+    width: 50%;
+}
+
+.text-bold {
+    font-weight: 600;
+}
+
+.text-light {
+    opacity: 0.4;
 }
