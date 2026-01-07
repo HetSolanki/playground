@@ -10,22 +10,22 @@
 
 <body>
     <!-- Home -->
-    <div id="home" style="padding: 20px 80px 80px 80px; height: 100vh;">
+    <header id="home" style="padding: 20px 80px 80px 80px; height: 100vh;">
         <nav style="display: flex; justify-content: space-between; align-items: center;">
-            <h2>Just<span class="stay">Stay</span></h2>
+            <h2>Just<span class="text-orange">Stay</span></h2>
             <ul
                 style="display: flex; list-style: none; justify-content: space-between; font-weight: 600; font-size: 16px; gap: 24px; padding: 0;">
                 <li>Home</li>
-                <li>About</li>
-                <li>Rooms</li>
-                <li>Services</li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#services">Services</a></li>
                 <li>Contact</li>
             </ul>
             <h3>logout</h3>
         </nav>
         <div style="margin-top: 200px; width: 40%;">
             <p style="font-weight: 500; margin-bottom: 0;">Welcome To</p>
-            <h1 style="font-size: 60px; margin: 0;">Hotel Just<span class="stay">Stay</span>
+            <h1 style="font-size: 60px; margin: 0;">Hotel Just<span class="text-orange">Stay</span>
                 Ahmedabad India
             </h1>
             <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At voluptate porro
@@ -35,21 +35,25 @@
             <button class="home-btn"
                 style="background-color: transparent; color: white; border: 1px solid white">Explore More</button>
         </div>
-    </div>
+    </header>
     <!-- About -->
     <div id="about">
-        <h3>--- About Us ---</h3>
-        <div class="about-layout1" style="margin-top: 100px;">
-            <img src="about1.png" alt="History of JustStay" height="300">
+        <h3 style="display: flex; gap: 2px; justify-content: center; align-items: center;">
+            <hr> About Us
+            <hr>
+        </h3>
+        <div class="about-layout1" style="margin-top: 80px;">
+            <img src="assets/about1.png" alt="History of JustStay" height="300">
             <div class="about-layout1-text">
-                <h2 style="font-size: 30px;">History of Just<span class="stay">Stay</span></h2>
+                <h2 style="font-size: 30px;">History of Just<span class="text-orange">Stay</span></h2>
                 <div class="about-div-para">
                     <p class="text-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aut magni ullam
                         a maiores officiis
                         aperiam iure provident dolores dignissimos molestias, ut amet placeat at. Lorem ipsum dolor sit
                         amet
                         consectetur adipisicing elit. Nesciunt, aspernatur!</p>
-                    <p class="text-bold text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis natus
+                    <p class="text-bold text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Perspiciatis natus
                         corrupti voluptates
                         dolorem accusamus alias odit totam provident, dolore repudiandae doloremque ducimus accusantium
                         officiis. Hic ratione dolor harum perspiciatis dignissimos!</p>
@@ -68,7 +72,8 @@
                         aperiam iure provident dolores dignissimos molestias, ut amet placeat at. Lorem ipsum dolor sit
                         amet
                         consectetur adipisicing elit. Nesciunt, aspernatur!</p>
-                    <p class="text-bold text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis natus
+                    <p class="text-bold text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Perspiciatis natus
                         corrupti voluptates
                         dolorem accusamus alias odit totam provident, dolore repudiandae doloremque ducimus accusantium
                         officiis. Hic ratione dolor harum perspiciatis dignissimos!</p>
@@ -77,9 +82,191 @@
                     Read More
                 </button>
             </div>
-            <img src="about1.png" alt="History of JustStay" height="300">
+            <img src="assets/about1.png" alt="History of JustStay" height="300">
         </div>
     </div>
+    <div id="counter">
+        <div class="counter-values">
+            <p class="text1">8</p>
+            <p class="text2">Years of Service</p>
+        </div>
+        <div class="counter-values">
+            <p class="text1">459</p>
+            <p class="text2">Sq. Meter Area</p>
+        </div>
+        <div class="counter-values">
+            <p class="text1">50</p>
+            <p class="text2">Nice Rooms</p>
+        </div>
+        <div class="counter-values">
+            <p class="text1">3786</p>
+            <p class="text2">Happy Visitors</p>
+        </div>
+    </div>
+    <div id="rooms">
+        <h3 style="display: flex; gap: 2px; justify-content: center; align-items: center;">
+            <hr> Our Rooms
+            <hr>
+        </h3>
+        <h1>Explore Our <span class="text-orange">Rooms</span></h1>
+        <div class="rooms-layout">
+            <div class="room-card">
+                <img src="assets/room1.png" alt="Junior Suite Room image">
+                <div>
+                    <p>JUNIOR SUITES</p>
+                    <p class="text-light">$150.00 / per night</p>
+                </div>
+            </div>
+            <div class="room-card">
+                <img src="assets/room2.png" alt="Junior Suite Room image">
+                <div>
+                    <p>Executive Suite</p>
+                    <p class="text-light">$250.00 / per night</p>
+                </div>
+            </div>
+            <div class="room-card">
+                <img src="assets/room3.png" alt="Junior Suite Room image">
+                <div>
+                    <p>Super Deluxe</p>
+                    <p class="text-light">$350.00 / per night</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <h3 style="display: flex; gap: 2px; justify-content: center; align-items: center;">
+            <hr> Our Services
+            <hr>
+        </h3>
+        <h1>Explore Our <span class="text-orange">Services</span></h1>
+        <div class="grid-3col">
+            <div class="service-card">
+                <img src="assets/building 1.svg" alt="">
+                <h4 style="margin-top: 10px;">Rooms & Appartment</h4>
+                <p>Lorem ipsum dolor sit amet consectetur. </p>
+            </div>
+            <div class="service-card" style="background-color: #FF8D41;">
+                <img src="assets/ranking-podium 1.png" alt="">
+                <h4 style="margin-top: 10px;">Sports & Gaming</h4>
+                <p>Lorem ipsum dolor sit amet consectetur. </p>
+            </div>
+            <div class="service-card">
+                <img src="assets/restaurant 1.svg" alt="">
+                <h4 style="margin-top: 10px;">Food & Resturant</h4>
+                <p>Lorem ipsum dolor sit amet consectetur. </p>
+            </div>
+            <div class="service-card">
+                <img src="assets/gym 1.svg" alt="">
+                <h4 style="margin-top: 10px;">Spa & Fitness</h4>
+                <p>Lorem ipsum dolor sit amet consectetur. </p>
+            </div>
+            <div class="service-card">
+                <img src="assets/glass-cheers 1.svg" alt="">
+                <h4 style="margin-top: 10px;">Event & Party</h4>
+                <p>Lorem ipsum dolor sit amet consectetur. </p>
+            </div>
+            <div class="service-card">
+                <img src="assets/candle-lotus-yoga 1.svg" alt="">
+                <h4 style="margin-top: 10px;">GYM & Yoga</h4>
+                <p>Lorem ipsum dolor sit amet consectetur. </p>
+            </div>
+        </div>
+    </div>
+    <div id="quotes">
+        <h3 style="display: flex; gap: 2px; justify-content: center; align-items: center;">
+            <hr> Testimonal 
+            <hr>
+        </h3>
+        <h1>What People <span class="text-orange">Say?</span></h1>
+        <div class="quote-container">
+            <div class="qutoes">
+                <div class="title-quote">
+                    <img src="assets/quote-down.svg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iure illum modi amet ratione.</p>
+                </div>
+                <div class="contacts">
+                    <h4>Rita O'Conner</h4>
+                    <p class="text-light">Sandrine.Luettgen@gmail.com</p>
+                </div>
+            </div>
+            <div class="qutoes">
+                <div class="title-quote">
+                    <img src="assets/quote-down.svg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iure illum modi amet ratione.</p>
+                </div>
+                <div class="contacts">
+                    <h4>Woodrow McCullough</h4>
+                    <p class="text-light">Idell.Hoppe86@yahoo.com</p>
+                </div>
+            </div>
+            <div class="qutoes">
+                <div class="title-quote">
+                    <img src="assets/quote-down.svg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iure illum modi amet ratione.</p>
+                </div>
+                <div class="contacts">
+                    <h4>Veronica Hessel</h4>
+                    <p class="text-light">Valentin.Homenick@gmail.com</p>
+                </div>
+            </div>
+            <div class="qutoes">
+                <div class="title-quote">
+                    <img src="assets/quote-down.svg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iure illum modi amet ratione.</p>
+                </div>
+                <div class="contacts">
+                    <h4>George Heaney</h4>
+                    <p class="text-light">Liliana.Howell85@hotmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer1">
+            <h3>Just<span class="text-orange">Stay</span></h3>
+            <div class="text-light">
+                <p style="margin-bottom: 10px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, dolor.
+                </p>
+                <p>shaikhsaad256@gmail.com</p>
+            </div>
+        </div>
+        <div>
+            <p>Quick Links</p>
+            <ul class="text-light">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Rooms</li>
+                <li>Services</li>
+            </ul>
+        </div>
+        <div>
+            <p>Quick Links</p>
+            <ul class="text-light">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Rooms</li>
+                <li>Services</li>
+            </ul>
+        </div>
+        <div>
+            <p>Quick Links</p>
+            <ul class="text-light">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Rooms</li>
+                <li>Services</li>
+            </ul>
+        </div>
+        <div>
+            <p>Quick Links</p>
+            <ul class="text-light">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Rooms</li>
+                <li>Services</li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
