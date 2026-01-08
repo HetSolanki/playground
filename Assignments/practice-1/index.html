@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table, List & Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/general.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact Us</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Student Grades</h1>
+            <table border="1" cellpadding="8" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Roll No</th>
+                        <th>Name</th>
+                        <th>Class</th>
+                        <th>Marks</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Rahul Mehta</td>
+                        <td>10</td>
+                        <td>85</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>Priya Shah</td>
+                        <td>10</td>
+                        <td>92</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>Amit Kumar</td>
+                        <td>9</td>
+                        <td>78</td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>Neha Patel</td>
+                        <td>9</td>
+                        <td>88</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h1>Fill the following form</h1>
+            <form action="#">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+
+                <label for="phone">Phone Number</label>
+                <input type="number" name="phone" id="phone">
+
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age">
+
+                <label for="address">Address</label>
+                <textarea name="address" id="address"></textarea>
+
+                <button type="submit" id="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

@@ -12,40 +12,65 @@
     <!-- Home -->
     <header id="home" style="padding: 20px 80px 80px 80px; height: 100vh;">
         <nav style="display: flex; justify-content: space-between; align-items: center;">
-            <h2>Just<span class="text-orange">Stay</span></h2>
+            <h2 style="font-size: large;">Just<span class="text-orange">Stay</span></h2>
             <ul
-                style="display: flex; list-style: none; justify-content: space-between; font-weight: 600; font-size: 16px; gap: 24px; padding: 0;">
+                style="display: flex; list-style: none; justify-content: space-between; font-weight: 600; font-size: 18px; gap: 24px; padding: 0;">
                 <li>Home</li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#rooms">Rooms</a></li>
                 <li><a href="#services">Services</a></li>
                 <li>Contact</li>
             </ul>
-            <h3>logout</h3>
+            <h3 style="font-size: 16px;">logout</h3>
         </nav>
         <div style="margin-top: 200px; width: 40%;">
-            <p style="font-weight: 500; margin-bottom: 0;">Welcome To</p>
-            <h1 style="font-size: 60px; margin: 0;">Hotel Just<span class="text-orange">Stay</span>
+            <p style="font-weight: 500; margin-bottom: 0; font-size: 18px">Welcome To</p>
+            <h1 style="font-size: 64px; margin: 0;">Hotel Just<span class="text-orange">Stay</span>
                 Ahmedabad India
             </h1>
-            <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At voluptate porro
+            <p style="text-align: justify; font-size: 16px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                At
+                voluptate porro
                 enim numquam obcaecati
                 repellat sequi necessitatibus voluptatibus dolor quia odio corrupti, quam repudiandae cumque quis</p>
-            <button class="home-btn" style="background-color: orange; color: white">Book Now</button>
+            <button class="home-btn" style="background-color: orange; color: white;">Book Now</button>
             <button class="home-btn"
                 style="background-color: transparent; color: white; border: 1px solid white">Explore More</button>
         </div>
     </header>
     <!-- About -->
-    <div id="about">
-        <h3 style="display: flex; gap: 2px; justify-content: center; align-items: center;">
+    <section id="about">
+        <h3 style="display: flex; gap: 2px; justify-content: center; align-items: center; font-size: 16px;">
             <hr> About Us
             <hr>
         </h3>
-        <div class="about-layout1" style="margin-top: 80px;">
-            <img src="assets/about1.png" alt="History of JustStay" height="300">
+        <section class="about-layout1" style="margin-top: 80px;">
+            <img src="assets/about1.png" alt="History of JustStay" height="360" width="524">
             <div class="about-layout1-text">
-                <h2 style="font-size: 30px;">History of Just<span class="text-orange">Stay</span></h2>
+                <h2 style="font-size: 40px; margin: 0;">History of Just<span class="text-orange">Stay</span></h2>
+                <div class="about-div-para">
+                    <p class="text-bold" style="font-size: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Harum aut magni ullam
+                        a maiores officiis
+                        aperiam iure provident dolores dignissimos molestias, ut amet placeat at. Lorem ipsum dolor sit
+                        amet
+                        consectetur adipisicing elit. Nesciunt, aspernatur!</p>
+                    <p class="text-bold text-light" style="font-size: 16px;">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit.
+                        Perspiciatis natus
+                        corrupti voluptates
+                        dolorem accusamus alias odit totam provident, dolore repudiandae doloremque ducimus accusantium
+                        officiis. Hic ratione dolor harum perspiciatis dignissimos!</p>
+                </div>
+                <button style="background-color: transparent; color: orange; border: 1px solid orange; font-size: 14px;"
+                    class="home-btn">
+                    Read More
+                </button>
+            </div>
+        </section>
+        <section class="about-layout1" style="margin-top: 50px">
+            <div class="about-layout1-text">
+                <h2 style="font-size: 40px; margin: 0;">Why Choose us?</h2>
                 <div class="about-div-para">
                     <p class="text-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aut magni ullam
                         a maiores officiis
@@ -62,29 +87,9 @@
                     Read More
                 </button>
             </div>
-        </div>
-        <div class="about-layout1" style="margin-top: 50px">
-            <div class="about-layout1-text">
-                <h2 style="font-size: 30px;">Why Choose us?</h2>
-                <div class="about-div-para">
-                    <p class="text-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum aut magni ullam
-                        a maiores officiis
-                        aperiam iure provident dolores dignissimos molestias, ut amet placeat at. Lorem ipsum dolor sit
-                        amet
-                        consectetur adipisicing elit. Nesciunt, aspernatur!</p>
-                    <p class="text-bold text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Perspiciatis natus
-                        corrupti voluptates
-                        dolorem accusamus alias odit totam provident, dolore repudiandae doloremque ducimus accusantium
-                        officiis. Hic ratione dolor harum perspiciatis dignissimos!</p>
-                </div>
-                <button style="background-color: transparent; color: orange; border: 1px solid orange" class="home-btn">
-                    Read More
-                </button>
-            </div>
-            <img src="assets/about1.png" alt="History of JustStay" height="300">
-        </div>
-    </div>
+            <img src="assets/about1.png" alt="History of JustStay" height="360" width="524">
+        </section>
+    </section>
     <div id="counter">
         <div class="counter-values">
             <p class="text1">8</p>
@@ -174,7 +179,7 @@
     </div>
     <div id="quotes">
         <h3 style="display: flex; gap: 2px; justify-content: center; align-items: center;">
-            <hr> Testimonal 
+            <hr> Testimonal
             <hr>
         </h3>
         <h1>What People <span class="text-orange">Say?</span></h1>
@@ -182,7 +187,8 @@
             <div class="qutoes">
                 <div class="title-quote">
                     <img src="assets/quote-down.svg" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iure illum modi amet ratione.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iure illum modi amet ratione.
+                    </p>
                 </div>
                 <div class="contacts">
                     <h4>Rita O'Conner</h4>
@@ -192,7 +198,8 @@
             <div class="qutoes">
                 <div class="title-quote">
                     <img src="assets/quote-down.svg" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iure illum modi amet ratione.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iure illum modi amet ratione.
+                    </p>
                 </div>
                 <div class="contacts">
                     <h4>Woodrow McCullough</h4>
@@ -202,7 +209,8 @@
             <div class="qutoes">
                 <div class="title-quote">
                     <img src="assets/quote-down.svg" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iure illum modi amet ratione.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iure illum modi amet ratione.
+                    </p>
                 </div>
                 <div class="contacts">
                     <h4>Veronica Hessel</h4>
@@ -212,7 +220,8 @@
             <div class="qutoes">
                 <div class="title-quote">
                     <img src="assets/quote-down.svg" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iure illum modi amet ratione.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iure illum modi amet ratione.
+                    </p>
                 </div>
                 <div class="contacts">
                     <h4>George Heaney</h4>
@@ -222,15 +231,16 @@
         </div>
     </div>
     <footer>
-        <div class="footer1">
+        <section class="footer1">
             <h3>Just<span class="text-orange">Stay</span></h3>
             <div class="text-light">
-                <p style="margin-bottom: 10px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, dolor.
+                <p style="margin-bottom: 10px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis,
+                    dolor.
                 </p>
                 <p>shaikhsaad256@gmail.com</p>
             </div>
-        </div>
-        <div>
+        </section>
+        <section>
             <p>Quick Links</p>
             <ul class="text-light">
                 <li>Home</li>
@@ -238,8 +248,8 @@
                 <li>Rooms</li>
                 <li>Services</li>
             </ul>
-        </div>
-        <div>
+        </section>
+        <section>
             <p>Quick Links</p>
             <ul class="text-light">
                 <li>Home</li>
@@ -247,8 +257,8 @@
                 <li>Rooms</li>
                 <li>Services</li>
             </ul>
-        </div>
-        <div>
+        </section>
+        <section>
             <p>Quick Links</p>
             <ul class="text-light">
                 <li>Home</li>
@@ -256,8 +266,8 @@
                 <li>Rooms</li>
                 <li>Services</li>
             </ul>
-        </div>
-        <div>
+        </section>
+        <section>
             <p>Quick Links</p>
             <ul class="text-light">
                 <li>Home</li>
@@ -265,7 +275,7 @@
                 <li>Rooms</li>
                 <li>Services</li>
             </ul>
-        </div>
+        </section>
     </footer>
 </body>
 
