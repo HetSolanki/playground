@@ -48,6 +48,12 @@
     .services {
         padding: 30px;
     }
+
+    .rooms h1,
+    .services h1,
+    .quotes h1 {
+        font-size: 32px;
+    }
 }
 
 @media (max-width: 768px) {
