@@ -1,17 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
-body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 0;
-    margin: 0;
+.hidden {
+    display: none;
 }
 
-#home {
+.home-section {
+    width: max-content;
+}
+
+.nav-desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 1550px;
+    width: 100%;
+    padding: 15px;
+}
+
+.flex-reverse {
+    flex-direction: row-reverse;
+}
+
+.welcome-to {
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 18px
+}
+
+.home-title {
+    font-size: 64px;
+    margin-bottom: 10px;
+}
+
+.home-description {
+    margin-top: 200px;
+    width: 50%;
+}
+
+.btn {
+    background-color: transparent;
+    border: none;
     color: white;
-    background-image: url("assets/Home\ Screen.png");
-    background-size: cover;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.margin-top-80 {
+    margin-top: 80px;
 }
 
 .home-btn {
@@ -21,24 +68,29 @@ body {
     font-size: 14px;
 }
 
-#about,
-#rooms,
-#services,
-#quotes,
+/* #about, */
+/* #rooms, */
+/* #services, */
+/* #quotes, */
 footer {
     padding: 50px 150px;
 }
 
-#about h3,
+.about h3,
 #rooms h3,
-#services h3,
-#quotes h3 {
-    font-size: medium;
+.services h3,
+.quotes h3 {
+    font-size: large;
     font-weight: 500;
     text-align: center;
 }
 
-#about img {
+
+/* .quotes {
+    height: 608px;
+} */
+
+.about img {
     padding: 10px;
     border: 1px solid rgb(190, 190, 190);
     border-radius: 45px;
@@ -55,12 +107,28 @@ footer {
     align-items: center;
 }
 
+.about-img {
+    max-width: 524px;
+    width: 100%;
+}
+
+.about {
+    padding: 50px 100px;
+}
+
 .about-div-para {
-    margin: 30px 0px
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
 }
 
 .about-layout1-text {
     width: 50%;
+}
+
+.about-div-title {
+    font-size: 40px;
+    margin-bottom: 32px;
 }
 
 .text-bold {
@@ -87,28 +155,43 @@ footer {
     width: 10%;
 }
 
-#counter {
+.counter {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px 150px;
     background-color: #FF8D41;
     color: white;
+    height: max-content;
 }
 
-#rooms h1,
-#services h1,
-#quotes h1 {
+.rooms h1,
+.services h1,
+.quotes h1 {
+    font-size: 44px;
     text-align: center;
 }
 
-#rooms {
+.rooms {
     background-color: #F8F9FB;
-    padding: 100px 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.section-title {
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    align-items: center
 }
 
 .room-card {
     margin-top: 50px;
-    width: 380px;
+    max-width: 380px;
+    width: 100%;
     background-color: white;
 }
 
@@ -128,18 +211,49 @@ footer {
 }
 
 .rooms-layout {
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
+    column-gap: 10px;
+}
+
+.services {
+    padding: 100px;
+}
+
+.h2 {
+    font-size: 24px;
+}
+
+.h3 {
+    font-size: 18px
+}
+
+.h4 {
+    font-size: 16px;
+}
+
+.h5 {
+    font-size: 14px;
+}
+
+.h6 {
+    font-size: 12px;
 }
 
 .service-card {
-    width: 300px;
+    text-align: center;
+    width: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 50px 30px;
     border: 1px solid gainsboro;
+}
+
+.text-white {
+    color: white;
 }
 
 .service-card img {
@@ -152,10 +266,12 @@ footer {
 }
 
 .grid-3col {
+    padding: 0 150px;
     margin-top: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 40px;
+    justify-items: center;
 }
 
 .qutoes {
@@ -210,6 +326,19 @@ footer {
 a {
     text-decoration: none;
     color: white;
+}
+
+.text-black {
+    color: black
+}
+
+
+.home {
+    padding: 50px 50px;
+    height: 100vh;
+    color: white;
+    background-image: url("../assets/Home\ Screen.png");
+    background-size: cover;
 }
 
 hr {

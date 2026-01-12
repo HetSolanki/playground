@@ -1,0 +1,152 @@
+@media (max-width: 991px) {
+    body {
+        font-size: 14px;
+    }
+
+    .nav-desktop ul {
+        gap: 10px;
+    }
+
+    .welcome-to {
+        font-size: 16px;
+    }
+
+    .home-title {
+        font-size: 32px;
+    }
+
+    .about-layout1 {
+        display: block;
+    }
+
+    .about-layout1-text {
+        width: 100%;
+    }
+
+    .about-div-title {
+        margin-top: 40px;
+        font-size: 30px;
+    }
+
+    .about-div-para {
+        font-size: 12px
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .grid-3col {
+        padding: 0;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .home-description {
+        margin-top: 250px;
+    }
+
+    .services {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-desktop {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .welcome-to {
+        font-size: 16px;
+    }
+
+    .home-title {
+        font-size: 32px;
+    }
+
+    .home-description {
+        width: 100%;
+    }
+
+    .about {
+        padding: 30px;
+    }
+
+    .about-layout1 {
+        display: block;
+    }
+
+    .about-layout1-text {
+        width: 100%;
+    }
+
+    .about-div-title {
+        margin-top: 40px;
+        font-size: 30px;
+    }
+
+    .about-div-para {
+        font-size: 12px
+    }
+
+    .rooms {
+        padding: 30px;
+    }
+
+    .counter {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px 10px;
+        padding: 20px 30px;
+    }
+
+    .counter-values {
+        width: calc(50% - 15px);
+    }
+
+    .rooms-layout {
+        display: block;
+    }
+
+    .room-card {
+        margin: 50px auto;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .grid-3col {
+        padding: 0;
+        grid-template-columns: 1fr;
+    }
+
+    .quote-container {
+        display: block;
+    }
+
+    .qutoes {
+        margin: 30px auto;
+    }
+
+    footer {
+        display: block;
+        padding: 30px;
+    }
+
+    .footer-links {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 30px;
+        margin-top: 20px;
+    }
+
+    .footer-links section {
+        width: calc(50% - 15px);
+    }
+
+}
