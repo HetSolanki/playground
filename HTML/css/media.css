@@ -1,4 +1,4 @@
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
     body {
         font-size: 14px;
     }
@@ -8,28 +8,33 @@
     }
 
     .welcome-to {
-        font-size: 16px;
+        font-size: 20px;
+    }
+
+    .home-description {
+        width: 100%;
+        margin-top: 50dvh;
     }
 
     .home-title {
-        font-size: 32px;
-    }
-
-    .about-layout1 {
-        display: block;
+        font-size: 44px;
     }
 
     .about-layout1-text {
         width: 100%;
     }
 
+    .about {
+        padding: 50px 40px;
+    }
+
     .about-div-title {
         margin-top: 40px;
-        font-size: 30px;
+        font-size: 34px;
     }
 
     .about-div-para {
-        font-size: 12px
+        font-size: 16px
     }
 
     .section-title {
@@ -42,7 +47,7 @@
     }
 
     .home-description {
-        margin-top: 250px;
+        margin-top: 40vh;
     }
 
     .services {
@@ -54,9 +59,52 @@
     .quotes h1 {
         font-size: 32px;
     }
+
+    .rooms {
+        padding: 50px 40px;
+    }
+
+    .counter {
+        padding: 20px 50px;
+    }
+
+    .quote-container {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        gap: 20px
+    }
+
+    .quotes {
+        margin: 30px auto;
+        padding-top: 50px;
+    }
+
+    footer {
+        padding: 30px 50px;
+    }
+
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
+    .about-layout1 {
+        display: block;
+    }
+
+    .about-img {
+        max-width: none;
+    }
+
+    .about {
+        padding: 50px;
+    }
+
+    footer {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 540px) {
     .nav-desktop {
         display: none;
     }
@@ -75,6 +123,7 @@
     }
 
     .home-description {
+        margin-top: 30vh;
         width: 100%;
     }
 
